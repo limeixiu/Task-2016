@@ -1,0 +1,94 @@
+body{
+	margin: 0;
+	padding: 0;
+	background: #999;
+	font-family: "微软雅黑";
+}
+span{
+	
+}
+p{
+	text-indent: 2em;
+	
+}
+div#nav{
+	width: 100%;
+	height: 50px;
+	background: darkblue;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+#nav ul{
+	width: 470px;
+	float: right;
+	height: 40px;
+}
+#nav ul li{
+	display: inline-block;	
+	margin-left: 20px;
+}
+#nav ul li:hover{
+	background: wheat;
+}
+
+#nav ul li a{
+	text-decoration: none;
+	text-align: center;
+	color: white;
+}
+
+div.section{
+	margin: 15px;
+	padding: 15px;
+	border: 1px solid darkgoldenrod;
+	background: white;
+}
+figure{
+	border: 1px solid saddlebrown;
+	width: 700px;
+	text-align: center;
+}
+table.bor{
+	width: 100%;
+	border-collapse: collapse;
+}
+th{
+	background: #000;
+}
+table.bor tr:last-child{
+	background: beige;
+}
+
+.auther,.time{
+	color: #808080;
+	font-size: 16px;
+}
+.hr-box{
+	border-left: 2px solid #999999;
+	padding-left: 10px;
+}
+table.asi{
+	width: 500px;
+	margin: 0 auto;
+	font-size: 15px;
+}
+table.asi tr td:first-child{
+	padding-right: 15px;
+	text-align: right;
+}
+span.note{
+	color: #808080;
+	font-size: 12px;
+}
+button{
+	width: 100%;
+	height: 40px;
+	background: blue;color: white;
+	border-radius: 6px;
+	font-size: 17px;
+}
+
