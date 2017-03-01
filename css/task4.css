@@ -1,0 +1,37 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+	height: 100%;//等价于html高度为视口的高度
+}
+/*
+ * css3的flex元素也可做到居中
+  body{
+ 	  display:flex;
+      align-items:center;//定义body里的元素垂直居中
+      justify-content:center;//定义body里的元素水平居中
+ }
+ */
+.wrap{
+	width: 400px;
+	height: 200px;
+	margin: 0 auto;
+	background: #ccc;
+	position: relative;
+	top: 50%;
+	margin-top: -100px;/**等价于transform:translateY(-50%);*/	
+}
+.lf_top,.rf_bot{
+	width: 50px;
+	height: 50px;
+	background: orange;
+}
+.lf_top{
+	border-radius: 0 0 50px 0;
+}
+.rf_bot{
+	border-radius: 50px 0px 0px 0px;
+	position: absolute;
+	bottom: 0px;
+	right: 0px;
+}
