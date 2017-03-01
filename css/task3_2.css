@@ -1,0 +1,78 @@
+html, body, div, span,  object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q,  samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+} 
+body{
+	font-family: "microsoft sans serif";
+}
+.wrap{
+	min-width: 600px;
+	background: #eee;
+	border: 1px solid #999;
+	overflow: auto;
+	padding: 20px;
+}
+#left,#right{
+	background: white;
+	padding: 10px;
+	
+}
+img{
+	width: 80px;
+	height: 80px;
+}
+/*left*/
+#left{
+	float: left;
+	width: 160px;
+	margin-right: 20px;
+	padding: 20px;
+}
+#left img{
+	float: left;
+}
+#left p{
+	margin-top: 20px;
+	margin-left: 10px;
+	float: left;
+}
+/*main*/
+#main{
+	margin-left: 220px;
+	margin-right: 160px;
+	padding: 20px;
+	background:white;
+}
+#main p{
+	text-indent: 2.2em;
+	letter-spacing: 0.2em;
+	line-height: 1.8em;
+	margin-bottom: 15px;
+	font-size: 12px;
+	
+}
+#main h4{
+	font-weight: bold;
+}
+/*right*/
+#right{
+    float: right;
+	width: 120px;
+	margin-left: 20px;
+}
+#right img{
+    display: block;
+	margin: 10px auto;
+}
