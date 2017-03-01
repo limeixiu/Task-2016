@@ -1,0 +1,170 @@
+html, body, div, span,  object, iframe, h1, h2, h3, 
+h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, 
+big, cite, code, del, dfn, em, img, ins, kbd, q,  samp, 
+small, strike, strong, sub, sup, tt, var, dl, dt, dd, ol, ul, li, 
+fieldset, form, label, legend, table, caption, tbody, tfoot, 
+thead, tr, th, td { 
+    margin: 0; 
+    padding: 0; 
+    border: 0; 
+    outline: 0; 
+    font-weight: inherit; 
+    font-style: inherit; 
+    font-size: 100%; 
+    font-family: inherit; 
+    vertical-align: baseline; 
+} 
+body{
+	font-family:"microsoft yahei";
+	background: #ABB0AF;
+}	
+/*common*/
+ .grey{
+ 	color:grey;
+ }
+ .letter-spacing{
+ 	letter-spacing: 0.1em;
+ }
+ .small-fontsize{
+ 	font-size: 10pt;
+ }
+/*header*/
+header{
+	width: 100%;
+	height: 60px;
+	background: rgb(51,51,51);
+	position: relative;
+}
+header img{
+	padding-left: 20px;
+	height: 58px;
+}
+nav{
+	position: absolute;
+	right: 30px;
+	top: 0px;
+}
+nav ul{
+	
+	width: 470px;
+}
+nav ul li{
+	text-align: center;
+	display: inline-block;
+	padding: 20px 10px;
+}
+nav ul li a{
+	color: white;
+	text-decoration: none;
+}
+nav ul li a:hover{
+	color:grey;
+}
+/* article*/
+/*article,aside common*/
+article,aside{
+	background: white;
+	margin: 20px 30px;
+	padding: 10px 15px;
+	box-shadow: 5px 5px 4px 1px #848484;
+}
+article h2{
+	padding: 10px 0px;
+	font-weight: bold;
+}
+article h3{
+	padding: 10px 0px;
+	color: #808080;
+}
+article a{
+	color: blue;
+}
+article a:hover{
+	color: goldenrod;
+}
+article p{
+	text-indent: 2.2em;
+	margin: 10px 0px;
+	line-height: 1.8em;
+}
+article ul{
+	list-style: none;
+	margin: 30px;
+	line-height: 1.8em;
+}
+/*article,aside common--end*/
+.picture-box{
+	border: 1px solid #ABB0AF;
+	width: 690px;
+	margin: 10px 10px 20px 40px;
+	text-align: center;
+}
+
+article ol{
+	margin:30px 50px;
+}
+
+article table{
+	width: 80%;
+	text-align: left;
+	border-collapse: collapse;//设置为单一边框
+	margin-bottom: 30px;
+}
+table td,th{
+	border: 1px solid gainsboro;
+	padding: 3px 7px;
+}
+table tr:first-child{
+	background:#000000;
+	color: white;
+}
+table tr:last-child{
+	background: gainsboro;
+	
+}
+/*aside*/
+aside{
+	margin-top: 40px;
+	padding: 20px 40px;
+}
+aside h2{
+	font-weight: bold;
+	padding: 5px 10px;
+	border-left: 3px solid #808080;
+	margin-bottom: 20px;
+}
+aside div{
+	margin: 15px 0px;
+}
+.rf{
+	width: 40%;
+	float: left;
+	text-align: right;
+	padding-right: 15px;
+}
+aside div p{
+	margin: 10px 10px 10px 40%;
+	padding-left: 15px;
+}
+aside div textarea{
+	width: 30%;
+	height: 100px;
+}
+button{
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+	height: 50px;
+	background: blue;
+	border-radius: 15px;
+	color: white;
+	line-height: 50px;
+}
+/*footer*/
+footer{
+	height: 80px;
+	text-align: center;
+	line-height: 80px;
+	background: black;
+	color: white;
+}
